@@ -57,8 +57,9 @@ function Cart() {
         ))
       )}
       <div>Total: ₹{total}</div>
+      
       <Link to="/checkout" className="checkout-pay-btn">
-        Checkout
+       Checkout
       </Link>
     </div>
   );

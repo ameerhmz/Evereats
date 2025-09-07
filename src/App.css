@@ -351,3 +351,19 @@ body {
     background-position: 0% 50%;
   }
 }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers all children horizontally */
+}
+.checkout-pay-btn {
+  display: inline-block; /* if not already */
+  margin: 20px auto 0 auto; /* top margin 20px, auto left & right */
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff; /* example style */
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
