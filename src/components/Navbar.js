@@ -6,7 +6,7 @@ function Navbar() {
     <nav
       className="main-navbar"
       style={{
-        background: "linear-gradient(90deg, #00695c, #00897b)",
+        background: "linear-gradient(90deg, #041513ff, #00897b)",
         padding: "12px 24px",
         boxShadow: "0 4px 8px rgba(0,0,0,0.15)",
         position: "relative",
